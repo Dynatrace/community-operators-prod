@@ -16,5 +16,3 @@ COPY ./metadata /metadata/
 LABEL com.redhat.openshift.versions="v4.14"
 LABEL com.redhat.delivery.operator.bundle=true
 LABEL com.redhat.delivery.backport=true
-COPY manifests /manifests/
-COPY metadata /metadata/
